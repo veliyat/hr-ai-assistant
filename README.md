@@ -1,23 +1,24 @@
-# Intelligent HR Assistant: RAG-based Document QA 📄🧠
+# Intelligent HR Assistant: GraphRAG-based Document QA 📄🕸️
 
-This project is a **Retrieval-Augmented Generation (RAG)** system designed to help employees query internal HR policy documents. Instead of searching through long PDFs, users can ask questions in natural language and receive accurate answers backed by specific document citations.
+This project is a **Graph-based Retrieval-Augmented Generation (GraphRAG)** system designed to help employees query internal HR policy documents. Unlike standard RAG, which relies solely on text similarity, this system uses a **Knowledge Graph** to understand the complex connections between different corporate policies, roles, and regulations.
 
 ## 🌟 Key Features
-* **Automated Ingestion:** Processes complex PDF documents into manageable, semantic chunks.
-* **Vector Search:** Utilizes vector embeddings to find the most relevant context for any query.
-* **Source Attribution:** Every response includes the specific page number and document source to ensure transparency and trust.
-* **Production-Ready Structure:** Modular Python architecture designed for scalability and maintainability.
+* **Graph-Based Ingestion:** Transforms PDF text into a structured Knowledge Graph of entities and relationships.
+* **Semantic & Relational Search:** Combines vector similarity with graph traversal to answer complex, multi-hop questions.
+* **Source Attribution:** Provides clear citations, linking answers back to specific documents and page numbers.
+* **Advanced Reasoning:** Uses the relationships in **Neo4j** to provide more contextually accurate answers than standard vector-only approaches.
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x 🐍
 * **Orchestration:** [LangChain](https://www.langchain.com/) 🦜🔗
-* **Vector Database:** ChromaDB (Placeholder)
+* **Graph Database:** [Neo4j](https://neo4j.com/) 🕸️
 * **LLM:** OpenAI GPT-4 (Placeholder)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 * Python 3.10+
+* A Neo4j instance (AuraDB or local)
 * An API key for your chosen LLM (stored in a `.env` file)
 
 ### Installation
