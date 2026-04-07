@@ -17,7 +17,7 @@ This project is a **Graph-based Retrieval-Augmented Generation (GraphRAG)** syst
 ## 🚀 Getting Started
 
 ### Prerequisites
-* Python 3.10+
+* Python 3.10 to 3.13.5
 * A Neo4j instance (AuraDB or local)
 * An API key for your chosen LLM (stored in a `.env` file)
 
