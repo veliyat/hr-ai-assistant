@@ -24,13 +24,13 @@ This project is a **Graph-based Retrieval-Augmented Generation (GraphRAG)** syst
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/hr-document-ai.git](https://github.com/your-username/hr-document-ai.git)
+   git clone https://github.com/veliyat/hr-ai-assistant.git
    cd hr-document-ai
    ```
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python -m venv .venv
+   source .venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 3. Install dependencies:
    ```bash
